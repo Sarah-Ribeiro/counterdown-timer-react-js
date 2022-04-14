@@ -1,0 +1,123 @@
+/* Universal */
+
+* {
+  font-family: 'Poppins';
+}
+
+/* Images */
+
+.top-image {
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+.bottom-image {
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+}
+
+.rocket {
+  height: 435px;
+  width: 607px;
+  left: 950px;
+  top: 200px;
+  position: absolute;
+}
+
+/* Titles */
+
+h1 {
+  color: #6C63FF;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.105em;
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-style: normal;
+  align-items: center;
+}
+
+/* Body */
+
+.content {
+  justify-content: space-between;
+  position: absolute;
+  left: 123px;
+  top: 130px;
+  align-items: center;
+  text-align: center;
+}
+
+.subscribe {
+  font-weight: 400;
+  color: #9C9AB6;
+  font-size: 14px;
+  font-style: normal;
+  left: 196px;
+  margin-top: 0;
+}
+
+/* Timer*/
+
+.show-counter .countdown-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  line-height: 0.1;
+}
+
+.show-counter span {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  justify-content: space-between;
+  word-spacing: 10px;
+  color: #C8C8C8;
+  left: 536px;
+  top: 260px;
+}
+
+.show-counter p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  color: #4D4C59;
+  left: 123px;
+  top: 280px;
+}
+
+/* Button */
+
+.button {
+  background-color: #6C63FF;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.25);
+  position: absolute;
+  width: 160px;
+  height: 46px;
+  left: 145px;
+  top: 320px;
+}
+
+/* Root */
+
+:root {
+  --black: #4D4C59;
+  --purple: #6C63FF;
+  --light-grey: #C8C8C8;
+  --text-color: #9C9AB6;
+}
